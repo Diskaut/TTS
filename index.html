@@ -16,8 +16,8 @@
 
 			.canvas-app-container:-webkit-full-screen {
 			  /* Auto width and height in Safari/Chrome fullscreen. */
-			  width: 720;
-			  height: 720;
+			  width: auto;
+			  height: auto;
 			}
 
 			.canvas-app-progress {
@@ -56,7 +56,6 @@
 	    <canvas id="canvas" class="canvas-app-canvas" tabindex="1" width="640" height="640"></canvas>
 	</div>
 
-	<button id="fullscreen" class="button">Fullscreen</button>
 
 	<!-- -->
 	  
@@ -76,10 +75,6 @@
 
         Module.runApp("canvas", extra_params);
 
-	    /* Fullscreen button */
-	    document.getElementById("fullscreen").onclick = function (e) {
-	      Module.toggleFullscreen();
-	    };
 	</script>
 </body>
 </html>
