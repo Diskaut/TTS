@@ -10,7 +10,7 @@ game_binding = /input/game.input_bindingc
 
 [display]
 width = 640
-height = 704
+height = 640
 fullscreen = 0
 update_frequency = 60
 
